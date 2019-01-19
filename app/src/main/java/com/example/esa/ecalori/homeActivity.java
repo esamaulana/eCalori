@@ -1,6 +1,7 @@
 package com.example.esa.ecalori;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -62,10 +63,10 @@ public class homeActivity extends AppCompatActivity {
         feedback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent feedback = new Intent(homeActivity.this, feedback.class);
+                Intent feedback = new Intent(Intent.ACTION_VIEW);
+                feedback.setData(Uri.parse("https://www.fatsecret.com"));
                 startActivity(feedback);
             }
         });
-
     }
 }
