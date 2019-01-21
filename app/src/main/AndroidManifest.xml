@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,10 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".homeActivity" />
+        <activity
+            android:name=".homeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".cariMakanan" />
-        <activity android:name=".KalkulatorIMT"
-            android:label="Kalkulator IMT"/>
+        <activity
+            android:name=".KalkulatorIMT"
+            android:label="Kalkulator IMT" />
         <activity android:name=".catatanHarian" />
         <activity android:name=".beritaKesehatan" />
         <activity android:name=".about" />
