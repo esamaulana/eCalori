@@ -6,13 +6,16 @@ import android.view.MenuItem;
 
 public class KalkulatorIMT extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kalkulator_imt);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -24,4 +27,6 @@ public class KalkulatorIMT extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }

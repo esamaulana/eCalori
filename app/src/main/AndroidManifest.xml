@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".homeActivity" />
         <activity android:name=".cariMakanan" />
-        <activity android:name=".KalkulatorIMT" />
+        <activity android:name=".KalkulatorIMT"
+            android:label="Kalkulator IMT"/>
         <activity android:name=".catatanHarian" />
         <activity android:name=".beritaKesehatan" />
         <activity android:name=".about" />
