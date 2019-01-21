@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".catatanHarian2">
+
+    <LinearLayout
+        android:paddingTop="55dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/aktiv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tidak Aktiv" />
+
+        <Button
+            android:id="@+id/aktiv1"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cukup aktiv, berolahraga 1-2 kali/seminggu" />
+
+        <Button
+            android:id="@+id/aktiv2"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aktiv, berolahraga 3-5 kali/seminggu" />
+
+        <Button
+            android:id="@+id/aktiv3"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sangat aktiv, berolahraga 6-7 kali/seminggu" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

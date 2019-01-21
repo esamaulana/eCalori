@@ -25,10 +25,15 @@
         <activity
             android:name=".KalkulatorIMT"
             android:label="Kalkulator IMT" />
-        <activity android:name=".catatanHarian" />
+        <activity
+            android:name=".catatanHarian"
+            android:label="Catatan Harian" />
         <activity android:name=".beritaKesehatan" />
         <activity android:name=".about" />
-        <activity android:name=".feedback"></activity>
+        <activity android:name=".feedback" />
+        <activity
+            android:name=".catatanHarian2"
+            android:label="Level Aktivitas Fisik"></activity>
     </application>
 
 </manifest>

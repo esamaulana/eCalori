@@ -40,8 +40,6 @@
             tools:layout_editor_absoluteY="218dp"
             tools:ignore="MissingConstraints" />
 
-        />
-
     </LinearLayout>
 
 
