@@ -29,7 +29,8 @@
         <activity
             android:name=".catatanHarian"
             android:label="Catatan Harian" />
-        <activity android:name=".beritaKesehatan" />
+        <activity android:name=".beritaKesehatan"
+            android:label="Berita Kesehatan"/>
         <activity
             android:name=".about"
             android:label="Makers" />
