@@ -6,21 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".cariMakanan">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:includeFontPadding="false"
-        android:text="cariMakanan"
-        android:textColor="#000000"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="0dp" />
 
     <android.support.v7.widget.RecyclerView
-        android:layout_width="395dp"
-        android:layout_height="557dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="38dp" />
+        android:id="@+id/recyclerView2"
+        android:layout_width="0dp"
+        android:layout_height="541dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:ems="10"
+        android:hint="Nama Makanan"
+        android:inputType="textPersonName"
+        android:text="Nama Makanan"
+        app:l
+        straintEnd_toEndOf="parent"
+        app:layou
+        intStart_toStartOf="parent"
+        app:l />
 
 </android.support.constraint.ConstraintLayout>
