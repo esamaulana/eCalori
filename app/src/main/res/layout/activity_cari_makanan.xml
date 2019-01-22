@@ -7,31 +7,5 @@
     tools:context=".cariMakanan">
 
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView2"
-        android:layout_width="0dp"
-        android:layout_height="541dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="9dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="6dp"
-        android:layout_marginEnd="6dp"
-        android:ems="10"
-        android:hint="Nama Makanan"
-        android:inputType="textPersonName"
-        android:text="Nama Makanan"
-        app:l
-        straintEnd_toEndOf="parent"
-        app:layou
-        intStart_toStartOf="parent"
-        app:l />
 
 </android.support.constraint.ConstraintLayout>

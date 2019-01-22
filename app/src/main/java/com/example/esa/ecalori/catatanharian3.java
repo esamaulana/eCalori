@@ -8,6 +8,6 @@ public class catatanharian3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_catatanharian3);
+        setContentView(R.layout.activity_catatan_harian3);
     }
 }
