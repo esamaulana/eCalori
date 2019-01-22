@@ -21,7 +21,8 @@
         <activity
             android:name=".homeActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".cariMakanan" />
+        <activity android:name=".cariMakanan"
+            android:label="Cari Makanan"/>
         <activity
             android:name=".KalkulatorIMT"
             android:label="Kalkulator IMT" />
@@ -39,7 +40,6 @@
         <activity
             android:name=".catatanharian3"
             android:label="Kebutuhan Harian" />
-        <activity android:name=".appBarMain" />
     </application>
 
 </manifest>

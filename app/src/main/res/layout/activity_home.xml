@@ -24,8 +24,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentTop="true"
+                android:paddingRight="40dp"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="0dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/calori" />
 

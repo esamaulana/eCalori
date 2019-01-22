@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Berat Badan (kg)"
-            android:paddingTop="25sp" />
+            android:paddingTop="25sp"
+            android:digits="012345789."/>
 
         <EditText
             android:id="@+id/tinggiBadan"
@@ -28,17 +29,18 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Tinggi Badan (cm)"
-            android:paddingTop="50dp" />
+            android:paddingTop="50dp"
+            android:digits="012345789."/>
 
         <Button
-            android:layout_marginTop="25dp"
-            android:id="@+id/button"
+            android:id="@+id/buttonHitung"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:text="Hitung"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="307dp"
-            tools:layout_editor_absoluteY="218dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="218dp" />
 
     </LinearLayout>
 

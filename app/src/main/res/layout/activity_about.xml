@@ -110,7 +110,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="Catatan harian"
+                        android:text="Adhitya Kuncoro"
                         android:textColor="#6F6f6f"
                         android:textSize="18sp" />
 
@@ -157,7 +157,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="Kalkulator IMT"
+                        android:text="Idham Rahadian"
                         android:textColor="#6F6f6f"
                         android:textSize="18sp" />
 
@@ -204,7 +204,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="Berita kesehatan"
+                        android:text="مأمون"
                         android:textColor="#6F6f6f"
                         android:textSize="18sp" />
 
