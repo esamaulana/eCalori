@@ -29,11 +29,17 @@
             android:name=".catatanHarian"
             android:label="Catatan Harian" />
         <activity android:name=".beritaKesehatan" />
-        <activity android:name=".about" />
+        <activity
+            android:name=".about"
+            android:label="Makers" />
         <activity android:name=".feedback" />
         <activity
             android:name=".catatanHarian2"
-            android:label="Level Aktivitas Fisik"></activity>
+            android:label="Level Aktivitas Fisik" />
+        <activity
+            android:name=".catatanharian3"
+            android:label="Kebutuhan Harian" />
+        <activity android:name=".appBarMain" />
     </application>
 
 </manifest>

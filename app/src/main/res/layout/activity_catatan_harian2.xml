@@ -18,7 +18,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Tidak Aktiv" />
+            android:text="Tidak Aktiv"
+            android:paddingLeft="134sp"
+            android:paddingRight="134sp"/>
 
         <Button
             android:id="@+id/aktiv1"
@@ -26,6 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
             android:text="Cukup aktiv, berolahraga 1-2 kali/seminggu" />
 
         <Button
@@ -34,6 +38,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:paddingLeft="39dp"
+            android:paddingRight="39dp"
             android:text="Aktiv, berolahraga 3-5 kali/seminggu" />
 
         <Button
