@@ -2,13 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.esa.ecalori">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/network_security_config" />
+
+        <activity android:name=".DetailsActivity" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -21,16 +31,18 @@
         <activity
             android:name=".homeActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".cariMakanan"
-            android:label="Cari Makanan"/>
+        <activity
+            android:name=".cariMakanan"
+            android:label="Cari Makanan" />
         <activity
             android:name=".KalkulatorIMT"
             android:label="Kalkulator IMT" />
         <activity
             android:name=".catatanHarian"
             android:label="Catatan Harian" />
-        <activity android:name=".beritaKesehatan"
-            android:label="Berita Kesehatan"/>
+        <activity
+            android:name=".beritaKesehatan"
+            android:label="Berita Kesehatan" />
         <activity
             android:name=".about"
             android:label="Makers" />
